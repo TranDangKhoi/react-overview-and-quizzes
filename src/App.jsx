@@ -1,9 +1,9 @@
-import VeryHeavyCode from "./components/VeryHeavyCode";
+import NewsPage from "./pages/NewsPage";
 
 function App() {
   return (
     <div>
-      <VeryHeavyCode></VeryHeavyCode>
+      <NewsPage></NewsPage>
     </div>
   );
 }
