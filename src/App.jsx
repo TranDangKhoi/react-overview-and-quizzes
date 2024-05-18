@@ -1,11 +1,15 @@
-import NewsPage from "./pages/NewsPage";
+import { useEffect, useRef, useState } from "react";
 
 function App() {
-  return (
-    <div>
-      <NewsPage></NewsPage>
-    </div>
-  );
+  useEffect(() => {
+    setTimeout(() => {
+      console.log("Hello, world!");
+    }, 2000);
+    return () => {
+      console.log("Goodbye, world!");
+    };
+  }, []);
+  return <div></div>;
 }
 
 export default App;
